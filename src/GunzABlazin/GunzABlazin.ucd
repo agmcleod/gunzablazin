@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="786,1147" id="GunzABlazin" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D313030302047756E7A41426C617A696E2F6161726F6E6D636C656F64">
+  <children xsi:type="editmodel:ClassEditModel" name="GamePlayState" location="370,50" size="146,697" id="GunzABlazin/GamePlayState" runTimeClassModel="render(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;Lorg.newdawn.slick.Graphics;),controllerRightPressed(I),controllerDownPressed(I),keyPressed(IC),controllerDownReleased(I),checkSideCollisions(Z),mouseMoved(IIII),GamePlayState(I),pullPlayerDownByGravity(I),checkGroundCollision(),controllerLeftPressed(I),levels,controllerUpReleased(I),controllerUpPressed(I),stateID,init(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;),jump(I),inputEnded(),keyReleased(IC),mouseClicked(IIII),mouseReleased(III),getID(),enter(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;),controllerButtonPressed(II),drawSurfaces(),update(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;I),mousePressed(III),leave(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;),controllerButtonReleased(II),controllerRightReleased(I),initializeLevels(),controllerLeftReleased(I),setInput(Lorg.newdawn.slick.Input;),isAcceptingInput(),tileImage(IIIILorg.newdawn.slick.Image;),mouseWheelMoved(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="levels" id="GunzABlazin/GamePlayState#levels"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="stateID" id="GunzABlazin/GamePlayState#stateID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,612">
+      <children xsi:type="editmodel:MethodEditModel" name="GamePlayState" id="GunzABlazin/GamePlayState#GamePlayState(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkGroundCollision" id="GunzABlazin/GamePlayState#checkGroundCollision()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkSideCollisions" id="GunzABlazin/GamePlayState#checkSideCollisions(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerButtonPressed" id="GunzABlazin/GamePlayState#controllerButtonPressed(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerButtonReleased" id="GunzABlazin/GamePlayState#controllerButtonReleased(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerDownPressed" id="GunzABlazin/GamePlayState#controllerDownPressed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerDownReleased" id="GunzABlazin/GamePlayState#controllerDownReleased(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerLeftPressed" id="GunzABlazin/GamePlayState#controllerLeftPressed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerLeftReleased" id="GunzABlazin/GamePlayState#controllerLeftReleased(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerRightPressed" id="GunzABlazin/GamePlayState#controllerRightPressed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerRightReleased" id="GunzABlazin/GamePlayState#controllerRightReleased(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerUpPressed" id="GunzABlazin/GamePlayState#controllerUpPressed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="controllerUpReleased" id="GunzABlazin/GamePlayState#controllerUpReleased(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawSurfaces" id="GunzABlazin/GamePlayState#drawSurfaces()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="enter" id="GunzABlazin/GamePlayState#enter(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="GunzABlazin/GamePlayState#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="init" id="GunzABlazin/GamePlayState#init(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initializeLevels" id="GunzABlazin/GamePlayState#initializeLevels()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inputEnded" id="GunzABlazin/GamePlayState#inputEnded()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAcceptingInput" id="GunzABlazin/GamePlayState#isAcceptingInput()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="jump" id="GunzABlazin/GamePlayState#jump(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="GunzABlazin/GamePlayState#keyPressed(IC)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="GunzABlazin/GamePlayState#keyReleased(IC)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="leave" id="GunzABlazin/GamePlayState#leave(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseClicked" id="GunzABlazin/GamePlayState#mouseClicked(IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseMoved" id="GunzABlazin/GamePlayState#mouseMoved(IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="GunzABlazin/GamePlayState#mousePressed(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="GunzABlazin/GamePlayState#mouseReleased(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseWheelMoved" id="GunzABlazin/GamePlayState#mouseWheelMoved(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pullPlayerDownByGravity" id="GunzABlazin/GamePlayState#pullPlayerDownByGravity(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="render" id="GunzABlazin/GamePlayState#render(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;Lorg.newdawn.slick.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setInput" id="GunzABlazin/GamePlayState#setInput(Lorg.newdawn.slick.Input;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tileImage" id="GunzABlazin/GamePlayState#tileImage(IIIILorg.newdawn.slick.Image;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="update" id="GunzABlazin/GamePlayState#update(Lorg.newdawn.slick.GameContainer;Lorg.newdawn.slick.state.StateBasedGame;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GunzABlazin" location="50,797" size="123,121" id="GunzABlazin/GunzABlazin" runTimeClassModel="main([Ljava.lang.String;),gAMEPLAYSTATE,initStatesList(Lorg.newdawn.slick.GameContainer;),GunzABlazin()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="gAMEPLAYSTATE" id="GunzABlazin/GunzABlazin#gAMEPLAYSTATE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,54">
+      <children xsi:type="editmodel:MethodEditModel" name="GunzABlazin" id="GunzABlazin/GunzABlazin#GunzABlazin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initStatesList" id="GunzABlazin/GunzABlazin#initStatesList(Lorg.newdawn.slick.GameContainer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="GunzABlazin/GunzABlazin#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Level" location="566,50" size="151,139" id="GunzABlazin/Level" runTimeClassModel="enemies,addGround(LGunzABlazin.Sprite;),Level(Ljava.lang.String;),name,grounds">
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="enemies" id="GunzABlazin/Level#enemies"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="grounds" id="GunzABlazin/Level#grounds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="GunzABlazin/Level#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Level" id="GunzABlazin/Level#Level(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addGround" id="GunzABlazin/Level#addGround(LGunzABlazin.Sprite;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Point" location="223,797" size="69,103" id="GunzABlazin/Point" runTimeClassModel="Point(FF),y,x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="46,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="GunzABlazin/Point#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="GunzABlazin/Point#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="46,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Point" id="GunzABlazin/Point#Point(FF)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Enemy" location="113,608" size="91,85" id="GunzABlazin/Enemy" runTimeClassModel="name,Enemy(Ljava.lang.String;FFFFLorg.newdawn.slick.Image;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="GunzABlazin/Enemy#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Enemy" id="GunzABlazin/Enemy#Enemy(Ljava.lang.String;FFFFLorg.newdawn.slick.Image;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.0" autoLocated="true" id="GunzABlazin/Sprite&lt;-GunzABlazin/Enemy" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,103" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Player" location="234,608" size="73,67" id="GunzABlazin/Player" runTimeClassModel="Player(FFFFLorg.newdawn.slick.Image;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Player" id="GunzABlazin/Player#Player(FFFFLorg.newdawn.slick.Image;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="GunzABlazin/Sprite&lt;-GunzABlazin/Player" source="//@children.5" target="//@children.4/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Polygon" location="129,50" size="132,355" id="GunzABlazin/Polygon" runTimeClassModel="sizeY,deIncrementY(F),addPoint(LGunzABlazin.Point;),sizeX,Polygon(FFFFZLjava.util.ArrayList;),deIncrementX(F),incrementY(F),polygon,getRightX(),intersectsToTheRight(LGunzABlazin.Polygon;),intersectsToTheLeft(LGunzABlazin.Polygon;),intersects(LGunzABlazin.Polygon;),incrementX(F),getBottomY(),Polygon(FFFF),y,x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="polygon" id="GunzABlazin/Polygon#polygon"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sizeX" id="GunzABlazin/Polygon#sizeX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sizeY" id="GunzABlazin/Polygon#sizeY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="GunzABlazin/Polygon#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="GunzABlazin/Polygon#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,216">
+      <children xsi:type="editmodel:MethodEditModel" name="Polygon" id="GunzABlazin/Polygon#Polygon(FFFFZLjava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Polygon" id="GunzABlazin/Polygon#Polygon(FFFF)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="GunzABlazin/Polygon#addPoint(LGunzABlazin.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deIncrementX" id="GunzABlazin/Polygon#deIncrementX(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deIncrementY" id="GunzABlazin/Polygon#deIncrementY(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBottomY" id="GunzABlazin/Polygon#getBottomY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRightX" id="GunzABlazin/Polygon#getRightX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementX" id="GunzABlazin/Polygon#incrementX(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementY" id="GunzABlazin/Polygon#incrementY(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intersects" id="GunzABlazin/Polygon#intersects(LGunzABlazin.Polygon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intersectsToTheLeft" id="GunzABlazin/Polygon#intersectsToTheLeft(LGunzABlazin.Polygon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intersectsToTheRight" id="GunzABlazin/Polygon#intersectsToTheRight(LGunzABlazin.Polygon;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BoundingRectangle" location="50,455" size="141,67" id="GunzABlazin/BoundingRectangle" runTimeClassModel="BoundingRectangle(FFFF)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BoundingRectangle" id="GunzABlazin/BoundingRectangle#BoundingRectangle(FFFF)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.8/@sourceConnections.0" autoLocated="true" id="GunzABlazin/Polygon&lt;-GunzABlazin/BoundingRectangle" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,355" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="Sprite" location="221,455" size="99,103" id="GunzABlazin/Sprite" runTimeClassModel="Sprite(FFFFLorg.newdawn.slick.Image;Ljava.util.ArrayList;Z),graphic,Sprite(FFFFLorg.newdawn.slick.Image;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="graphic" id="GunzABlazin/Sprite#graphic"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Sprite" id="GunzABlazin/Sprite#Sprite(FFFFLorg.newdawn.slick.Image;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Sprite" id="GunzABlazin/Sprite#Sprite(FFFFLorg.newdawn.slick.Image;Ljava.util.ArrayList;Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="GunzABlazin/Polygon&lt;-GunzABlazin/Sprite" source="//@children.8" target="//@children.7/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
